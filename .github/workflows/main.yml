@@ -15,3 +15,5 @@ jobs:
 
       - name: 'Testing printing'
         run: echo reem
+
+      - uses: actions/checkout@v3  
