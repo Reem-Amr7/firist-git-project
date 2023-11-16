@@ -10,10 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing git hub action'
-        run: pwd 
-
-      - name: 'Testing printing'
-        run: echo reem
-
       - uses: actions/checkout@v3  
+      
+      - name: "login to Docker hub"
+        run: docker login --username reemamr87 --password dckr_pat_T1wps8w7-bYmMBnnNtI1wHN1v5c
