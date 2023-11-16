@@ -1,1 +1,17 @@
+on:
+  push:
+    branches:
+      - masterr
 
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Testing git hub action'
+        run: pwd 
+
+      - name: 'Testing printing'
+        run: echo reem
